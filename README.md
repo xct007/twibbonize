@@ -24,11 +24,11 @@
     const {
         search,
         imageProcess
-    } = require("./index.js")
+    } = require("twibbonize")
     ```
     EJS
     ```js
-    import pkg from './index.js'
+    import pkg from 'twibbonize'
     const {
         search,
         imageProcess
