@@ -2,35 +2,13 @@ const {
     search,
     imageProcess
 } = require("./index.js")
-/*
-// limit result output, deafult 10
-let limit = 10
+
+let limit = 10 // limit result, if not set deafult 10
 
 let query = 'badut'
 
 search(query, limit).then(async(data) => {console.log(data)})
 
-/* example
-    ouput:
-
-    [
-        {
-            hit: '471800',
-            creator: 'Brian',
-            name: 'Komunitas Badut Indonesia',
-            id: 'twibbonkbi',
-            description: 'Jadilah badut sejati dengan twibbon ini!\n' +
-            'Jangan lupa hashtag #BadutNyariJob biar di acc postingan nya di grup KBI!\n' +
-            'facebook.com/groups/komunitasbadutindonesia/\n' +
-            '@standinshd',
-            url: 'https://www.twibbonize.com/twibbonkbi'
-        },
-        ...
-    ]
-
-*/
-
-// get Twibbon */
 
 const fs = require('fs')
 
