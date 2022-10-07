@@ -1,0 +1,27 @@
+{
+  "name": "twibbonize-maybe",
+  "version": "1.0.0",
+  "description": "process image like Twibbonize, but with another method using Jimp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xct007/Twibbonize.git"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "david",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xct007/Twibbonize/issues"
+  },
+  "homepage": "https://github.com/xct007/Twibbonize#readme",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.16.2"
+  }
+}
