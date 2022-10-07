@@ -2,20 +2,20 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="input/rose.png" alt="Logo" width="80" height="80">
+    <img src="output/result.png" alt="Logo" style="width: 100%; height: 100%;">
   </a>
 
-<h3 align="center">Twibbonize</h3>
+<h1 align="center">Twibbonize</h1>
 </div>
 
 # How to use
-1. Clone this repo
+1. Install Packages
   ```sh
-  git clone https://github.com/xct007/twibbonize.git
+  npm install twibbonize
   ```
-  or Install via NPM
+  - or yarn
   ```sh
-  npm install UNNAMED
+  yarn add twibbonize
   ```
 
 2. Example

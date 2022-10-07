@@ -2,12 +2,12 @@ const {
     search,
     imageProcess
 } = require("./index.js")
-
+/*
 let limit = 10 // limit result, if not set deafult 10
 
 let query = 'badut'
 
-search(query, limit).then(async(data) => {console.log(data)})
+search(query, limit).then(async(data) => {console.log(data)})*/
 
 
 const fs = require('fs')
