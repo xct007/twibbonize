@@ -6,9 +6,6 @@
   "scripts": {
     "test": "node test.js"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xct007/twibbonize.git"
