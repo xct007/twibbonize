@@ -40,7 +40,7 @@
 
     let query = 'badut'
 
-    search(query, limit).then(async(data) => {console.log(data)})
+    search(query, limit, limitOutput).then(async(data) => {console.log(data)})
 
     /* example
         ouput:
@@ -67,9 +67,9 @@
     const fs = require('fs')
 
     let id = "twibbonkbi" // the id of twibbon if not found return error
-    let image = "./input/rose.png" // can be url or path to image
+    let image = "./input/rose.png" // can be image url or path to image
     imageProcess(id, image).then(async(buffer) => {
-        // return image buffer
+        // image buffer
         console.log(buffer)
         // save image
         fs.writeFileSync('./output/result.png', buffer)
