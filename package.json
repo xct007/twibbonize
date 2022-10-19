@@ -1,6 +1,6 @@
 {
   "name": "twibbonize",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Twibbonize using Jimp.",
   "main": "index.js",
   "scripts": {
