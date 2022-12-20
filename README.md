@@ -1,12 +1,18 @@
 <a name="readme-top"></a>
 <br />
+<h1 align="center">Twibbonize</h1>
+
 <div align="center">
   <a href="#">
     <img src="output/result.png" alt="Logo" style="width: 100%; height: 100%;">
   </a>
-
-<h1 align="center">Twibbonize</h1>
 </div>
+
+# TODO
+- [ ] Make this package more useful
+- [ ] Make code more readable
+- [ ] Etc.
+
 
 # How to use
 1. Install Packages
